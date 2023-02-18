@@ -90,9 +90,13 @@ body {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .wrapper {
     width: 100%;
     height: 100vh;
+  }
+
+  body {
+    padding: 2rem 0;
   }
 }
