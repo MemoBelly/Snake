@@ -43,10 +43,15 @@ body {
 
 .playboard .food {
   background: red;
+  border-radius: 50%;
 }
 
 .playboard .head {
-  background: #60cbff;
+  background: #05935f;
+}
+
+.playboard .head:first-child {
+  border-radius: 50%;
 }
 
 .controls {
