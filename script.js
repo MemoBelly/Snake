@@ -86,5 +86,5 @@ controls.forEach(key => {
 
 
 changeFoodPosition()
-setIntervalId =  setInterval(initGame, 200)
+setIntervalId =  setInterval(initGame, 100)
 document.addEventListener('keydown', changeDirection)
